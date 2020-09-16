@@ -64,6 +64,5 @@ Day__c | Date |
 Description__c | Text(255) |
 Effort__c | Number(16, 2)
 Employee__c | Master-Detail(Employee)
-Name__c | Auto Number	
 Ticket__c | Master-Detail(Ticket)	
-Name | Text(80)
+Name | Auto Number | TSI-{0000000000}
