@@ -1,3 +1,9 @@
+# Validation Rules
+
+Name | Object | Field | Description
+-----|--------|------------|---------
+Today_or_earlier | Timesheet_Item__c | Day__c | Prevents a user to save a timesheet item record on the future day  
+
 # Workflow Rules
 
 Name | Object | Description | Status
