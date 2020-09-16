@@ -50,7 +50,7 @@ An invisible junction object to connect `<Sprint__c>` and `<Employee__c>`.
 
 Field | Data Type | Description (optional)
 ------|----------|------------------------
-Email__c | Email |
+Email__c | Email | Used in Process `<Sprint Assignment>` to send an email to Employee when he or she has been assigned to a Sprint
 Employee__c | Master-Detail(Employee)	|
 Sprint__c | Master-Detail(Sprint) |
 Name | Auto Number |
