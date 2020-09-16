@@ -46,15 +46,15 @@ Working_Package_Name__c | Formula (Text)| Sprint__r.Name & " :: " & Name
 
 ## SprintAssignment__c
 
-An invisible junction object to connect `<Sprint__c>` and `<Employee__c>`.
+An invisible junction object to connect `Sprint__c` and `Employee__c`.
 
 Field | Data Type | Description (optional)
 ------|----------|------------------------
-Email__c | Email | Used in Process `<Sprint Assignment>` to send an email to Employee when he or she has been assigned to a Sprint
+Email__c | Email | Used in Process `Sprint Assignment` to send an email to Employee when he or she has been assigned to a Sprint
 Employee__c | Master-Detail(Employee)	|
 Sprint__c | Master-Detail(Sprint) |
 Name | Auto Number |
-Unique_External_ID__c | Text(255) (External ID) (Unique Case Sensitive) | Used in validation rule `<NAME>` to prevent dubles in Sprint Assignments
+Unique_External_ID__c | Text(255) (External ID) (Unique Case Sensitive) | Used in workflow rule `Sprint Assignment Unique ID` to prevent duplicates in Sprint Assignments
 
 ## Timesheet_Item__c
 
