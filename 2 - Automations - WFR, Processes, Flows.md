@@ -7,16 +7,10 @@ NoStatusChangeLast30Days | Opportunity | Send an email when an opportunity was n
 
 # Processes
 
-## Active
 
-Name | Object | Description
+Name | Object | Description | Status
 -----|--------|------------
-
-## Inactive
-
-Name | Object | Description
------|--------|------------
-Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint
+Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint | Inactive
 
 # Flows
 
