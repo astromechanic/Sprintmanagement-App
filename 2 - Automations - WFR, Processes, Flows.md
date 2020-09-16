@@ -17,3 +17,10 @@ Name | Object | Description
 Name | Object | Description
 -----|--------|------------
 Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint
+
+# Flows
+
+Name | Description | Status
+-----|-------------|---------
+Sprint Assignment Email Notification| Send an email to an employee when he or she has been assigned to a sprint. The flow executes the same actions as the process 'Sprint Assignment' | Inactive
+
