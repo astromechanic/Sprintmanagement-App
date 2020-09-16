@@ -1,7 +1,7 @@
 # Workflow Rules
 
 Name | Object | Description | Status
------|--------|------------
+-----|--------|------------|---------
 Sprint Assignment Unique ID | Sprint Assignment | Prevent one employee to be assigned more than once to one sprint | Active
 NoStatusChangeLast30Days | Opportunity | Send an email when an opportunity was not updated within last 30 days | Inactive
 
