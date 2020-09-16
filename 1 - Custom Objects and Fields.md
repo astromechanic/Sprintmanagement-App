@@ -28,7 +28,7 @@ Status__c | Picklist | New, Running, Finished
 
 Field | Data Type | Description (optional)
 ------|----------|------------------------
-Assigned_to__c | Lookup(Employee) |
+Assigned_to__c | Lookup(Employee) | Lookup Filter: only active
 Effort_data_model__c	| Number(16, 2)	|
 Effort_deployment__c | Number(16, 2)	|
 Effort_documentation__c	| Number(16, 2)	|	
@@ -51,7 +51,7 @@ An invisible junction object to connect `Sprint__c` and `Employee__c`.
 Field | Data Type | Description (optional)
 ------|----------|------------------------
 Email__c | Email | Used in Process `Sprint Assignment` to send an email to Employee when he or she has been assigned to a Sprint
-Employee__c | Master-Detail(Employee)	|
+Employee__c | Master-Detail(Employee)	| Lookup Filter: only active
 Sprint__c | Master-Detail(Sprint) |
 Name | Auto Number |
 Unique_External_ID__c | Text(255) (External ID) (Unique Case Sensitive) | Used in workflow rule `Sprint Assignment Unique ID` to prevent duplicates in Sprint Assignments
@@ -63,6 +63,6 @@ Field | Data Type | Description (optional)
 Day__c | Date |
 Description__c | Text(255) |
 Effort__c | Number(16, 2)
-Employee__c | Master-Detail(Employee)
+Employee__c | Master-Detail(Employee) | Lookup Filter: only active
 Ticket__c | Master-Detail(Ticket)	
 Name | Auto Number | TSI-{0000000000}
