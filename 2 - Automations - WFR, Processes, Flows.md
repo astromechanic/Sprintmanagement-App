@@ -16,7 +16,11 @@ NoStatusChangeLast30Days | Opportunity | Send an email when an opportunity was n
 
 Name | Object | Description | Status
 -----|--------|------------|--------
-Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint | Inactive <font color="red"> Много версий процесса, которые отличаются условиями: разобраться, какой процесс за что отвечает и убрать ненужное!</font>
+Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint | Inactive 
+
+```diff
+- Много версий процесса, которые отличаются условиями: разобраться, какой процесс за что отвечает и убрать ненужное!
+```
 
 # Flows
 
