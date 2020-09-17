@@ -22,6 +22,7 @@ Goal__c | Long Text Area(32768) |
 Num_of_Tickets__c | Roll-Up Summary (COUNT Ticket) |
 Name | Text(80) | 
 Status__c | Picklist | New, Running, Finished
+Sprints_Total__c | Number | ```diff - нужно ли это поле?```
 
 
 ## Ticket__c
