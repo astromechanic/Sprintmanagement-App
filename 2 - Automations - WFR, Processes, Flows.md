@@ -16,8 +16,10 @@ NoStatusChangeLast30Days | Opportunity | Send an email when an opportunity was n
 
 Name | Object | Description | Status
 -----|--------|------------|--------
-Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint | Inactive 
+Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint | Active 
 Update Contacts | Account | Update child Contact addresses when an account's shipping address is updated. | Inactive
+Notify an Employee when a Sprint Assignment deleted | Employee | Sent an email to Employee when a Sprint Assignment was deleted. An Employee gets a text email without specifying the Sprint name | Active
+
 
 # Flows
 
