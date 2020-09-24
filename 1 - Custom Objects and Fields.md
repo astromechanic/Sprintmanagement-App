@@ -11,7 +11,7 @@ First_Name__c | Text(50) |
 Is_Active__c | Checkbox |
 Last_Name__c | Text(50) |
 Mobil__c | Text(50) |
-Num_of_Sprints__c | Roll-Up Summary (COUNT Sprint Assignment) |
+Num_of_Sprints__c | Roll-Up Summary (COUNT Sprint Assignment) | Invisible
 
 ## Sprint__c
 
@@ -19,10 +19,11 @@ Field | Data Type | Description (optional)
 ------|----------|------------------------
 Estimated_effort_PD__c | Roll-Up Summary (SUM Ticket) |
 Goal__c | Long Text Area(32768) |
-Num_of_Tickets__c | Roll-Up Summary (COUNT Ticket) |
+Num_of_Tickets__c | Roll-Up Summary (COUNT Ticket) | Count all tickets in the Sprint
+Realized_Effort_PD__c | Roll-Up Summary (SUM Ticket) | Summarize all realized effort for one Sprint. It's calculated as follows. This field summarizes values of the field  `Realized_effort_PD__c` on `Ticket` which is a formula field referring to `Realized_effort__c`. The latter is a Roll-Up Summary field (SUM Timesheet Item).
 Name | Text(80) | 
 Status__c | Picklist | New, Running, Finished
-Total_Employees__c | Roll-Up Summary (COUNT Sprint Assignment | 
+Total_Employees__c | Roll-Up Summary (COUNT Sprint Assignment) |  Invisible
 
 
 ## Ticket__c
@@ -44,6 +45,8 @@ Sprint__c | Master-Detail(Sprint)	|
 Status__c | Picklist	| New, Development, Ready for Test, Ready for Deployment, Finished
 Name | Text(80)	|
 Working_Package_Name__c | Formula (Text)| Sprint__r.Name & " :: " & Name
+Realized_effort__c | Roll-Up Summary (SUM Timesheet Item) | Invisible field to summarize all effort for one ticket
+Realized_effort_PR__c | Formula (Number) | ROUND(Realized_effort__c/8, 0)
 
 ## SprintAssignment__c
 
