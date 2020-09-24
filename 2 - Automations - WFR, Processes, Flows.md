@@ -14,11 +14,13 @@ NoStatusChangeLast30Days | Opportunity | Send an email when an opportunity was n
 # Processes
 
 
-Name | Object | Description | Status
------|--------|------------|--------
+Name | Object | Description | Status | Comments
+-----|--------|------------|-------- | --------
 Sprint Assignment | Sprint Assignment | Send an email to Employee when he or she has been assigned to a Sprint | Active 
 Update Contacts | Account | Update child Contact addresses when an account's shipping address is updated. | Inactive
-Notify an Employee when a Sprint Assignment deleted | Employee | Sent an email to Employee when a Sprint Assignment was deleted. An Employee gets a text email without specifying the Sprint name | Active
+Notify an Employee when a Sprint Assignment deleted | Employee | Sent an email to Employee when a Sprint Assignment was deleted. An Employee gets a text email without specifying the Sprint name. Send Custom Notification to Current User withot specifying the Sprint Name | Inactive | Possibly not an option at all
+Sprint Assignment Deleted (test version) | Sprint | Send Custom Notification to Current User with the Sprint Name | Active | How to get the right recipient??
+
 
 
 # Flows
