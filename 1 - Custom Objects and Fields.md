@@ -22,7 +22,7 @@ Goal__c | Long Text Area(32768) |
 Num_of_Tickets__c | Roll-Up Summary (COUNT Ticket) |
 Name | Text(80) | 
 Status__c | Picklist | New, Running, Finished
-Sprints_Total__c | Number | ```diff - нужно ли это поле?```
+Total_Employees__c | Roll-Up Summary (COUNT Sprint Assignment | 
 
 
 ## Ticket__c
@@ -51,7 +51,7 @@ An invisible junction object to connect `Sprint__c` and `Employee__c`.
 
 Field | Data Type | Description (optional)
 ------|----------|------------------------
-Email__c | Email | Used in Process `Sprint Assignment` to send an email to Employee when he or she has been assigned to a Sprint
+Email__c | Email | Autopopulated field used in Process `Sprint Assignment` to send an email to Employee when he or she has been assigned to a Sprint
 Employee__c | Master-Detail(Employee)	| Lookup Filter: only active
 Sprint__c | Master-Detail(Sprint) |
 Name | Auto Number |
