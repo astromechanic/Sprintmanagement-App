@@ -59,6 +59,8 @@ Unique_External_ID__c | Text(255) (External ID) (Unique Case Sensitive) | Used i
 
 ## Timesheet_Item__c
 
+Die geleistete Arbeitszeit für ein `Ticket` wird durch täglich zu erfassende `Timesheet Items` dokumentiert. Ein `Timesheet Item` verbindet die Tätigkeit eines Mitarbeiters mit einem Ticket an einem bestimmten Tag mit einem bestimmten Aufwand unter Angabe einer kurzen Beschreibung.
+
 Field | Data Type | Description (optional)
 ------|----------|------------------------
 Day__c | Date |
